@@ -1,6 +1,6 @@
 import os #Provides functions for interacting with the file system (checking if a folder exists, creating folders)
 import argparse #Allow users to specify the video URL, output folder, and resolution through the command line
-from pytube import YouTube #Fetches video streams and downloads from YouTube
+from pytubefix import YouTube #Fetches video streams and downloads from YouTube
 from tqdm import tqdm #Library for creating progress bars
 
 #Add a CLI using argparse
